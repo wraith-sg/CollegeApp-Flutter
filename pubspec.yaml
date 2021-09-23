@@ -1,0 +1,48 @@
+name: piet
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^2.0.0
+  flutter_svg: ^0.22.0
+  cupertino_icons: ^1.0.3
+  firebase_auth: ^1.1.3
+  firebase_auth_web: ^1.1.2
+  firebase_core: ^1.1.0
+  flutter_barcode_scanner: ^2.0.0
+  pdf_render: ^1.0.10
+  photo_view: ^0.11.1
+  url_launcher: ^6.0.3
+  dialog_flowtter: ^0.3.1
+  google_sign_in: ^5.0.3
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  carousel_pro: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/
+    - assets/images/aboutus/
+    - assets/images/auth/
+    - assets/images/leaders/
+    - assets/syllabus.pdf
+    - assets/dialog_flow_auth.json
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans.ttf
